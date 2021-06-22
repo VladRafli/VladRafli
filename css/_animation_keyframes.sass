@@ -1,0 +1,124 @@
+@use './_root'
+
+// Page Animation
+@keyframes home-animation
+    from
+        color: root.$transparent-color
+        opacity: 0
+        transform: translateX(-100%)
+    to
+        color: root.$text-color
+        opacity: 1
+        transform: translateX(0%)
+
+@keyframes aboutme-animation
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes aboutme-animation-pic
+    from
+        transform: translateY(-100%)
+    to
+        transform: translateY(0%)
+
+@keyframes aboutme-animation-text1
+    from
+        transform: translateX(-100%)
+    to
+        transform: translateX(0%)
+
+@keyframes aboutme-animation-text2
+    from
+        transform: translateX(100%)
+    to
+        transform: translateX(0%)
+
+@keyframes skills-animation
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes skills-animation-frontend
+    from
+        transform: translateX(-100%)
+    to
+        transform: translateX(0%)
+
+@keyframes skills-animation-backend
+    from
+        transform: translateY(100%)
+    to
+        transform: translateY(0%)
+
+@keyframes skills-animation-programming
+    from
+        transform: translateX(100%)
+    to
+        transform: translateX(0%)
+
+@keyframes mywork-animation
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes mywork-animation-project
+    from
+        opacity: 0
+        transform: translateY(100%)
+    to
+        opacity: 1
+        transform: translateY(0%)
+
+@keyframes mywork-animation-more-project
+    from
+        transform: translateY(-100%)
+    to
+        transform: translateY(0%)
+
+@keyframes contactme-animation
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes contactme-animation-left
+    from
+        transform: translateX(100%)
+    to
+        transform: translateX(0%)
+
+@keyframes contactme-animation-right
+    from
+        transform: translateX(-100%)
+    to
+        transform: translateX(0%)
+
+@keyframes slider-animation
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes more-project-animation
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes project-open
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes navbar-animation
+    from
+        opacity: 0
+        transform: translateY(-200%)
+    to
+        opacity: 1
+        transform: translateY(0%)

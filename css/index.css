@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.3vmax;
+  color: #E0E1DD;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/App-Background.jpg");
+  background-size: cover;
+}
+.main-container .layer {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(64, 64, 64, 0.7);
+}
+.main-container .layer .navbar {
+  height: 7vh;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E1DD;
+  margin-bottom: 50px;
+}
+.main-container .layer .navbar .logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+}
+.main-container .layer .navbar .nav-items {
+  height: 50px;
+  width: 20vw;
+  margin-right: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-container .layer .navbar .nav-items .nav-link {
+  align-self: center;
+}
+.main-container .layer .navbar .nav-items .nav-link a {
+  text-decoration: none;
+  cursor: not-allowed;
+  color: #E0E1DD;
+}
+.main-container .layer .content-container {
+  height: calc( 100vh - calc( 7vh + 10vh + calc( 20px + 50px ) ) );
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+.main-container .layer .content-container .home-content {
+  align-self: flex-end;
+  flex-direction: column;
+  margin-bottom: 100px;
+  display: none;
+  opacity: 0;
+}
+.main-container .layer .content-container .home-content h1 {
+  margin: 40px 0;
+}
+.main-container .layer .content-container .home-content p {
+  margin: 20px 0;
+}
+.main-container .layer .content-container .aboutme-content {
+  align-self: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  display: none;
+  opacity: 0;
+}
+.main-container .layer .content-container .aboutme-content img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin: auto;
+}
+.main-container .layer .content-container .aboutme-content p {
+  margin: 30px 0;
+}
+.main-container .layer .content-container .skills-content {
+  width: 100%;
+  display: none;
+  opacity: 0;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+.main-container .layer .content-container .skills-content .frontend {
+  text-align: left;
+}
+.main-container .layer .content-container .skills-content .frontend h1 {
+  margin-bottom: 50px;
+}
+.main-container .layer .content-container .skills-content .frontend .frontend-items {
+  list-style: none;
+}
+.main-container .layer .content-container .skills-content .frontend .frontend-items .frontend-list {
+  margin: 15px 0;
+}
+.main-container .layer .content-container .skills-content .backend {
+  text-align: center;
+}
+.main-container .layer .content-container .skills-content .backend h1 {
+  margin-bottom: 50px;
+}
+.main-container .layer .content-container .skills-content .backend .backend-items {
+  list-style: none;
+}
+.main-container .layer .content-container .skills-content .backend .backend-items .backend-list {
+  margin: 15px 0;
+}
+.main-container .layer .content-container .skills-content .programming {
+  text-align: right;
+}
+.main-container .layer .content-container .skills-content .programming h1 {
+  margin-bottom: 50px;
+}
+.main-container .layer .content-container .skills-content .programming .programming-items {
+  list-style: none;
+}
+.main-container .layer .content-container .skills-content .programming .programming-items .programming-list {
+  margin: 15px 0;
+}
+.main-container .layer .content-container .mywork-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  opacity: 0;
+}
+.main-container .layer .content-container .mywork-content h1 {
+  margin: 0 auto 30px auto;
+}
+.main-container .layer .content-container .mywork-content .carousel {
+  height: calc( 100% - calc( 30px + 36px ) );
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 100%;
+}
+.main-container .layer .content-container .mywork-content .carousel .chevron-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.main-container .layer .content-container .mywork-content .carousel .chevron-left:hover {
+  background-color: rgba(29, 153, 255, 0.2);
+  cursor: pointer;
+}
+.main-container .layer .content-container .mywork-content .carousel .chevron-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+.main-container .layer .content-container .mywork-content .carousel .chevron-right:hover {
+  background-color: rgba(29, 153, 255, 0.2);
+  cursor: pointer;
+}
+.main-container .layer .content-container .mywork-content .carousel .project-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.main-container .layer .content-container .mywork-content .carousel .project-list .project {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.main-container .layer .content-container .mywork-content .carousel .project-list .project img {
+  height: 250px;
+  width: 400px;
+}
+.main-container .layer .content-container .mywork-content .carousel .project-list .project h3 {
+  margin: 15px 0;
+}
+.main-container .layer .content-container .contactme-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+  opacity: 0;
+}
+.main-container .layer .content-container .contactme-content .right-part {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.main-container .layer .content-container .contactme-content .right-part .contacts, .main-container .layer .content-container .contactme-content .right-part .social, .main-container .layer .content-container .contactme-content .right-part .projects {
+  margin-bottom: 20px;
+}
+.main-container .layer .content-container .contactme-content .right-part .contacts .icon, .main-container .layer .content-container .contactme-content .right-part .social .icon, .main-container .layer .content-container .contactme-content .right-part .projects .icon {
+  margin: 10px;
+  color: #E0E1DD;
+  transition: 0.3s ease;
+}
+.main-container .layer .content-container .contactme-content .right-part .contacts .icon:hover, .main-container .layer .content-container .contactme-content .right-part .social .icon:hover, .main-container .layer .content-container .contactme-content .right-part .projects .icon:hover {
+  color: #778DA9;
+}
+.main-container .layer .slider {
+  height: 10vh;
+  margin-top: 20px;
+}
+.main-container .layer .slider .slider-items {
+  width: 80vw;
+  list-style: none;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container .layer .slider .slider-items .slider-link {
+  width: 12%;
+  padding: 10px 16px;
+  border: 1.5px solid #E0E1DD;
+  border-radius: 50px;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+  color: #E0E1DD;
+  text-decoration: none;
+}
+.main-container .layer .slider .slider-items .slider-link:hover {
+  border-color: #0D1B2A;
+  background-color: rgba(224, 225, 221, 0.3);
+  color: black;
+}
+.main-container .layer .slider .slider-items .slider-link:hover p {
+  text-align: center;
+}
+
+.active {
+  border-color: #0D1B2A !important;
+  background-color: rgba(224, 225, 221, 0.3) !important;
+  color: black !important;
+}
+
+.active-section-flex {
+  display: flex !important;
+}
+
+.active-section-grid {
+  display: grid !important;
+}
+
+.project-close {
+  opacity: 0;
+  display: none !important;
+}
+
+.project-open {
+  display: block !important;
+  animation-name: project-open-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.more-project-selected {
+  opacity: 0;
+  display: none !important;
+}
+
+.more-project-close-selected {
+  opacity: 0;
+  display: none !important;
+}
+
+.more-project-shown {
+  display: flex !important;
+}
+
+.animated-navbar {
+  opacity: 0;
+  animation-name: navbar-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+  animation-delay: 1s;
+}
+
+.animated-home {
+  animation-name: home-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-aboutme {
+  animation-name: aboutme-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-aboutme-pic {
+  animation-name: aboutme-animation-pic !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-aboutme-text1 {
+  animation-name: aboutme-animation-text1 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-aboutme-text2 {
+  animation-name: aboutme-animation-text2 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-skills {
+  animation-name: skills-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-skills-frontend {
+  animation-name: skills-animation-frontend !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-skills-backend {
+  animation-name: skills-animation-backend !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-skills-programming {
+  animation-name: skills-animation-programming !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-mywork {
+  animation-name: mywork-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-mywork-project {
+  opacity: 0;
+  animation-name: mywork-animation-project !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+  animation-delay: 0.5s !important;
+}
+
+.animated-carousel {
+  animation-name: carousel-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-contactme {
+  animation-name: contactme-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-contactme-left {
+  animation-name: contactme-animation-left !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-contactme-right {
+  animation-name: contactme-animation-right !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+}
+
+.animated-slider {
+  opacity: 0;
+  animation-name: slider-animation !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: forwards !important;
+  animation-delay: 2s !important;
+}
+
+@keyframes home-animation {
+  from {
+    color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    color: #E0E1DD;
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes aboutme-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes aboutme-animation-pic {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes aboutme-animation-text1 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes aboutme-animation-text2 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes skills-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes skills-animation-frontend {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes skills-animation-backend {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes skills-animation-programming {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes mywork-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes mywork-animation-project {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes mywork-animation-more-project {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes contactme-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes contactme-animation-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes contactme-animation-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes slider-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes more-project-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes project-open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes navbar-animation {
+  from {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
