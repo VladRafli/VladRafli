@@ -16,9 +16,7 @@
 - Scripting: Python, Java, C
 - Other: Linux, Webpack, Docker 
 
-## Contacts
-
-**Email**: [rafli.jaskandi@gmail.com](mailto:rafli.jaskandi@gmail.com)
+## Social Media
 
 **Linkedin**: [https://www.linkedin.com/in/rafli-jaskandi/](https://www.linkedin.com/in/rafli-jaskandi/)
 
