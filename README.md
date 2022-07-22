@@ -10,31 +10,11 @@
 
 ## Tech Stack
 
-- Front End
-  - Sass
-  - Bootstrap
-  - TailwindCSS
-  - Animate.css
-  - React
-  - JQuery
-  - Alpine.js
-- Back End
-  - Express.js
-  - Prisma
-  - Laravel
-- Database
-  - Micrososft SQL Server
-  - MySQL
-  - MongoDB
-  - Redis
-- Scripting
-  - Python
-  - Java
-  - C
-- Other
-  - Linux
-  - Webpack
-  - Docker
+- Front End: Sass, Bootstrap, TailwindCSS, Animate.css, React, JQuery, Alpine.js
+- Back End: Express.js, Prisma, Laravel
+- Database: MSSQL, MySQL, MongoDB
+- Scripting: Python, Java, C
+- Other: Linux, Webpack, Docker 
 
 ## Contacts
 
