@@ -10,11 +10,22 @@
 
 ## Tech Stack
 
-- Front End: Sass, Bootstrap, TailwindCSS, Animate.css, React, JQuery, Alpine.js
-- Back End: Express.js, Prisma, Laravel
-- Database: MSSQL, MySQL, MongoDB
+- Front End:
+  - View: Plain HTML, React, .NET Aspx
+  - Styling: Tailwindcss (Prefer), Bootstrap
+  - Scripting: Vanila JS (Prefer), JQuery, Alpine.js
+- Back End: 
+  - Node (Prefer): Express.js, Prisma ORM, Winston, Morgan
+  - PHP: Laravel
+- Database:
+  - DBD: MongoDB
+  - RBD: MSSQL, MySQL
 - Scripting: Python, Java, C
-- Other: Linux, Webpack, Docker 
+- Other:
+  - OS: Windows (GUI), Ubuntu (Server), Arch (Hobby)
+  - Code: Webpack (JS Bundling), Vite (JS Bundling), CMake (Compile C)
+  - DevOps: Docker (Containerize)
+  - SecOps: Burpsuite, Wireshark
 
 ## Social Media
 
