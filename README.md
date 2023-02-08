@@ -1,11 +1,11 @@
 # Hello World! 😁👋
 
-* 👦 I'm Rafli Athala Jaskandi aka VladRafli (on Github).
+* 👦 I'm Rafli Athala Jaskandi (he/him) aka VladRafli (on Github).
 * 🖥 Computer Science at Bina Nusantara University.
 * 🔐 Majors on Cyber Security.
 * 🏢 Intern at PT. Indomobil Finance as Full Stack Developer
 * 👨‍🏫 Available to be Front End Mentor.
-* 🎯 Targeting become a Full Stack Developer.
+* 🎯 Targeting to become a Full Stack Developer.
 * 🤩 Open to great projects.
 
 ## Tech Stack
@@ -17,12 +17,14 @@
 - Back End: 
   - Node (Prefer): Express.js, Prisma ORM, Winston, Morgan
   - PHP: Laravel
+  - Microsoft: VB .NET
 - Database:
+  - KVD: Redis
   - DBD: MongoDB
   - RBD: MSSQL, MySQL
 - Scripting: Python, Java, C
 - Other:
-  - OS: Windows (GUI), Ubuntu (Server), Arch (Hobby)
+  - OS: Windows (GUI), Ubuntu (Server), Fedora (Hobby), Arch (Hobby)
   - Code: Webpack (JS Bundling), Vite (JS Bundling), CMake (Compile C)
   - DevOps: Docker (Containerize)
   - SecOps: Burpsuite, Wireshark
