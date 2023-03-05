@@ -29,8 +29,4 @@
   - DevOps: Docker (Containerize)
   - SecOps: Burpsuite, Wireshark
 
-## Social Media
-
-**Linkedin**: [https://www.linkedin.com/in/rafli-jaskandi/](https://www.linkedin.com/in/rafli-jaskandi/)
-
 **Enjoy life and Happy coding!**
