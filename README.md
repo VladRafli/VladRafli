@@ -1,9 +1,9 @@
 # Hello World! 😁👋
 
 * 👦 I'm Rafli Athala Jaskandi (he/him) aka VladRafli (on Github).
-* 🖥 Computer Science at Bina Nusantara University.
+* 🖥 Computer Science at Bina Nusantara University. (8th semester. Last year.)
 * 🔐 Majors on Cyber Security.
-* 🏢 Intern at PT. Indomobil Finance as Full Stack Developer
+* 🏢 Self Employed. Not accepting full-time job at the moment.
 * 👨‍🏫 Available to be Front End Mentor.
 * 🎯 Targeting to become a Full Stack Developer.
 * 🤩 Open to great projects.
