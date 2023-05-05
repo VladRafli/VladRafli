@@ -6,16 +6,17 @@
 * 🏢 Self Employed. Not accepting full-time job at the moment.
 * 👨‍🏫 Available to be Front End Mentor.
 * 🎯 Targeting to become a Full Stack Developer.
+* 🔨 Mastering and Builds in Javascript and Typescript
 * 🤩 Open to great projects.
 
 ## Tech Stack
 
 - Front End:
   - View: Plain HTML, React, .NET Aspx
-  - Styling: Tailwindcss (Prefer), Bootstrap
+  - Styling: Tailwindcss (Prefer), Bootstrap, MUI
   - Scripting: Vanila JS (Prefer), JQuery, Alpine.js
 - Back End: 
-  - Node (Prefer): Express.js, Prisma ORM, Winston, Morgan
+  - Node (Prefer): Express, NestJS.
   - PHP: Laravel
   - Microsoft: VB .NET
 - Database:
