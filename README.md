@@ -12,11 +12,11 @@
 ## Tech Stack
 
 - Front End:
-  - View: Plain HTML, React, .NET Aspx
-  - Styling: Tailwindcss (Prefer), Bootstrap, MUI
-  - Scripting: Vanila JS (Prefer), JQuery, Alpine.js
+  - View: Plain HTML, React (❤), .NET Aspx
+  - Styling: Tailwindcss (❤), Bootstrap, MUI (❤)
+  - Scripting: Typescript, Vanila JS, JQuery, Alpine.js
 - Back End: 
-  - Node (Prefer): Express, NestJS.
+  - Node (❤): Express, NestJS (❤).
   - PHP: Laravel
   - Microsoft: VB .NET
 - Database:
@@ -26,7 +26,7 @@
 - Scripting: Python, Java, C
 - Other:
   - OS: Windows (GUI), Ubuntu (Server), Fedora (Hobby), Arch (Hobby)
-  - Code: Webpack (JS Bundling), Vite (JS Bundling), CMake (Compile C)
+  - Code: Webpack (JS Bundling), Vite (JS Bundling) (❤), CMake (Compile C)
   - DevOps: Docker (Containerize)
   - SecOps: Burpsuite, Wireshark
 
