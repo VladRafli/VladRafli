@@ -1,12 +1,12 @@
 # Hello World! 😁👋
 
 * 👦 I'm Rafli Athala Jaskandi (he/him) aka VladRafli (on Github).
-* 🖥 Computer Science at Bina Nusantara University. (8th semester. Last year.)
-* 🔐 Majors on Cyber Security.
-* 🏢 Self Employed. Not accepting full-time job at the moment.
-* 👨‍🏫 Available to be Front End Mentor.
+* 🖥 Computer Science Graduate at Bina Nusantara University.
+* 🔐 Specialization on Cyber Security.
+* 🏢 IT Business Supporting Application Staff at PT. Indomobil Finance Indonesia.
+* 👨‍🏫 Available for consulting your IT problems.
 * 🎯 Targeting to become a Full Stack Developer.
-* 🔨 Mastering and Builds in Javascript and Typescript
+* 🔨 Mastering and Builds in Javascript and Typescript.
 * 🤩 Open to great projects.
 
 ## Tech Stack
@@ -27,7 +27,7 @@
 - Other:
   - OS: Windows (GUI), Ubuntu (Server), Fedora (Hobby), Arch (Hobby)
   - Code: Webpack (JS Bundling), Vite (JS Bundling) (❤), CMake (Compile C)
-  - DevOps: Docker (Containerize)
+  - DevOps: Docker (Containerize), Prometheus, Grafana, Terraform
   - SecOps: Burpsuite, Wireshark
 
 **Enjoy life and Happy coding!**
