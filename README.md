@@ -6,7 +6,7 @@
 * 🏢 IT Business Supporting Application Staff at PT. Indomobil Finance Indonesia.
 * 👨‍🏫 Available for consulting your IT problems.
 * 🎯 Targeting to become a Full Stack Developer.
-* 🔨 Mastering and Builds in Javascript and Typescript.
+* 🔨 Mastering and Builds with Javascript and Typescript.
 * 🤩 Open to great projects.
 
 ## Tech Stack
@@ -19,6 +19,7 @@
   - Node (❤): Express, NestJS (❤).
   - PHP: Laravel
   - Microsoft: VB .NET
+  - Golang: Echo
 - Database:
   - KVD: Redis
   - DBD: MongoDB
