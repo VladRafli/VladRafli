@@ -24,11 +24,13 @@
   - KVD: Redis
   - DBD: MongoDB
   - RBD: MSSQL, MySQL
+  - ObjectStorage: Minio
 - Scripting: Python, Java, C
 - Other:
   - OS: Windows (GUI), Ubuntu (Server), Fedora (Hobby), Arch (Hobby)
-  - Code: Webpack (JS Bundling), Vite (JS Bundling) (❤), CMake (Compile C)
-  - DevOps: Docker (Containerize), Prometheus, Grafana, Terraform
+  - Code: Webpack (JS Bundling), Vite (JS Bundling) (❤), CMake (Compile C), Rspack (JS Bundling)
+  - DevOps: Docker (Containerize), Terraform
   - SecOps: Burpsuite, Wireshark
+  - Server: Grafana, Prometheus, Gitea, Portainer, Nginx Proxy Manager, PHPMyAdmin
 
 **Enjoy life and Happy coding!**
