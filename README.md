@@ -13,11 +13,11 @@
 
 - Front End:
   - View: Plain HTML, React (❤), .NET Aspx
-  - Styling: Tailwindcss (❤), Bootstrap, MUI (❤)
+  - Styling: Tailwindcss (❤), Bootstrap, MUI, Chakra (❤)
   - Scripting: Typescript, Vanila JS, JQuery, Alpine.js
 - Back End: 
   - Node (❤): Express, NestJS (❤).
-  - PHP: Laravel
+  - PHP (❤): Laravel (❤)
   - Microsoft: VB .NET
   - Golang: Echo
 - Database:
