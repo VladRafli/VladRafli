@@ -1,12 +1,12 @@
 # Hello World! 😁👋
 
-* 👦 I'm Rafli Athala Jaskandi (he/him) aka VladRafli (on Github).
+* 👦 I'm Rafli Athala Jaskandi aka VladRafli (on Github).
 * 🖥 Computer Science Graduate at Bina Nusantara University.
 * 🔐 Specialization on Cyber Security.
 * 🏢 IT Business Supporting Application Staff at PT. Indomobil Finance Indonesia.
 * 👨‍🏫 Available for consulting your IT problems.
-* 🎯 Targeting to become a Full Stack Developer.
-* 🔨 Mastering and Builds with Javascript and Typescript.
+* 🎯 Targeting to had financial freedom.
+* 🔨 Builds and tinker with any tech stack.
 * 🤩 Open to great projects.
 
 ## Tech Stack
@@ -18,7 +18,7 @@
 - Back End: 
   - Node (❤): Express, NestJS (❤).
   - PHP (❤): Laravel (❤)
-  - Microsoft: VB .NET
+  - Microsoft: VB .NET, C# .NET
   - Golang: Echo
 - Database:
   - KVD: Redis
